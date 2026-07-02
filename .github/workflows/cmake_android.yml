@@ -36,6 +36,8 @@ jobs:
 
     - name: Setup cmake
       uses: jwlawson/actions-setup-cmake@v2
+      with:
+        cmake-version: '3.31.x'
 
     - name: Configure CMake
       shell: bash

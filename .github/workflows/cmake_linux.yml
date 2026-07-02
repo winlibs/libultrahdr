@@ -76,6 +76,8 @@ jobs:
 
     - name: Setup cmake
       uses: jwlawson/actions-setup-cmake@v2
+      with:
+        cmake-version: '3.31.x'
 
     - name: Install dependencies on Ubuntu
       run: sudo apt install -y libjpeg-dev
