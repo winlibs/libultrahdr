@@ -11,9 +11,9 @@ jobs:
       fail-fast: true
       matrix:
         config:
-          # <Windows-latest, Release Build, Cl compiler toolchain, Visual Studio 17 2022 generator>
-          - name: "windows latest cl rel visual studio 17 2022 with deps"
-            os: windows-latest
+          # <Windows 2022, Release Build, Cl compiler toolchain, Visual Studio 17 2022 generator>
+          - name: "windows 2022 cl rel visual studio 17 2022 with deps"
+            os: windows-2022
             build_type: Release
             cc: cl
             cxx: cl
